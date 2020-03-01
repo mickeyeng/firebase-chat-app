@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css?family=Lato&display=swap');
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: 'Lato', sans-serif;
+}
+
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.chat-rooms {
+}
+
+.chat-rooms h3 {
+  text-align: center;
+}
+
+.new-chat {
+  width: 100%;
+}
+
+.new-chat #your-message {
+  background-color: #1d1b1b96;
+  padding: 10px;
+  color: white;
+}
+
+.input-group {
+  display: flex;
+  align-items: center;
+  margin: 10px 0;
+}
+
+.new-chat input[type='text'] {
+  /* width: 100%; */
+  flex: 6;
+  padding: 10px;
+}
+
+.new-chat .btn {
+  border: none;
+  outline: none;
+  background: green;
+  padding: 10px;
+  color: white;
+}

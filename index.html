@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html class="no-js">
+  <!--<![endif]-->
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>Chat Application</title>
+    <meta name="description" content="" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <h1>Chat Application</h1>
+
+      <!-- Chat room -->
+      <div class="chat-rooms">
+        <h3>Choose a chat room</h3>
+        <button class="btn" id="general">#general</button>
+        <button class="btn" id="gaming">#gaming</button>
+        <button class="btn" id="music">#music</button>
+        <button class="btn" id="movies">movies</button>
+      </div>
+      <!-- Chat room -->
+
+      <!-- Chat list window -->
+      <div class="chat-window">
+        <ul class="chat-list"></ul>
+      </div>
+      <!-- Chat list window -->
+
+      <!-- new chat form -->
+      <form class="new-chat">
+        <div class="input-group">
+          <label id="your-message">Your message:</label>
+          <input type="text" id="message" class="form-control" />
+          <input type="submit" class="btn" value="send" />
+        </div>
+      </form>
+      <!-- new chat form -->
+
+      <!-- Update name form -->
+      <form class="new-chat">
+        <div class="input-group">
+          <label id="your-message">Update Name:</label>
+          <input type="text" id="message" class="form-control" />
+          <input type="submit" class="btn" value="Update" />
+        </div>
+      </form>
+      <!-- Update name form -->
+    </div>
+
+    <script src="./scripts/index.js" async defer></script>
+    <script src="./scripts/ui.js" async defer></script>
+    <script src="./scripts/chat.js" async defer></script>
+  </body>
+</html>
